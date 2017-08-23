@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_yellow_down"
+    tools:context="cn.lijingjiu.chartview.sample.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Week"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Month" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Year" />
+
+            </RadioGroup>
+
+            <cn.lijingjiu.chartview.LineChartView
+                android:id="@+id/lcv"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1"
+                app:lcv_background_color="@color/tealishTwo_30"
+                app:lcv_bubble_color="@color/light_blue"
+                app:lcv_bubble_gap="8dp"
+                app:lcv_text_to_line_gap="12dp"
+                app:lcv_curve_color="@color/aqua_marine"
+                app:lcv_curve_width="4dp"
+                app:lcv_image_border_width="4dp"
+                app:lcv_image_width="48dp"
+                app:lcv_line_width="1dp"
+                app:lcv_point_radius="6dp"
+                app:lcv_show_type="SHOW_TYPE_WEEK"
+                app:lcv_src="@drawable/user_img_default"
+                app:lcv_text_size_l="19sp"
+                app:lcv_text_size_m="13sp"
+                app:lcv_text_size_s="12sp"
+                app:lcv_symbol_radius="12dp"
+                app:lcv_text_size_symbol="24sp"
+                app:lcv_text_content1="Losing points"
+                app:lcv_text_content2="time to take up\ntraining again"
+                android:layout_marginBottom="30dp"
+                />
+
+            <cn.lijingjiu.chartview.BarGraphView
+                android:id="@+id/bgv"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:bgv_bar_color="@color/tealishTwo_60"
+                app:bgv_bubble_color="@color/light_blue"
+                app:bgv_bubble_gap="8dp"
+                app:bgv_text_to_line_gap="12dp"
+                app:bgv_line_width="1dp"
+                app:bgv_text_size_l="19sp"
+                app:bgv_text_size_m="13sp"
+                app:bgv_text_size_s="12sp"
+                app:bgv_hide_image="false"
+                app:bgv_image_border_width="4dp"
+                app:bgv_image_width="48dp"
+                app:bgv_src="@drawable/user_img_default"
+                />
+
+            <cn.lijingjiu.chartview.BarGraphView
+                android:id="@+id/bgv2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:bgv_bar_color="@color/tealishTwo_60"
+                app:bgv_bubble_color="@color/light_blue"
+                app:bgv_bubble_gap="8dp"
+                app:bgv_text_to_line_gap="12dp"
+                app:bgv_line_width="1dp"
+                app:bgv_text_size_l="19sp"
+                app:bgv_text_size_m="13sp"
+                app:bgv_text_size_s="12sp"
+                app:bgv_hide_image="true"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

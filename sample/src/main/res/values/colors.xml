@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tealishTwo_30">#1E25A5B3</color>
+    <color name="tealishTwo_60">#9925A5B3</color>
+    <color name="light_blue">#32DCF0</color>
+    <color name="sickly_yellow">#BEE632</color>
+    <color name="aqua_marine">#50E3C2</color>
+</resources>
