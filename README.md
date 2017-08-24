@@ -14,7 +14,7 @@ BarGraphView
 ---
 * Type one: show image
 
-![](https://github.com/lijingjiu123/line-chart-and-histogram/blob/master/art/BarGraphView_type1.png)
+![](https://github.com/lijingjiu123/line-chart-and-histogram/blob/master/art/BarGraphView_type1.jpg)
 
 * Type two：clickable
 
