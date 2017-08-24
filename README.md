@@ -1,5 +1,1 @@
-line-chart-and-histogram
-===
--
-#LineChartView
-#BarGraphView
+#line-chart-and-histogram
